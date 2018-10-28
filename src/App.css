@@ -3,117 +3,119 @@ body {
 }
 .App {
   text-align: left;
-  margin:0px auto;
-  width:90%;
+  margin: 0px auto;
+  width: 90%;
 }
 .App-header {
   background-color: #222;
   padding: 0px;
   color: white;
-  margin:0px auto;
-  width:90%;
+  margin: 0px auto;
+  width: 90%;
 }
 .App-header-content {
-  width:100%;
-  margin:0px auto;
+  width: 100%;
+  margin: 0px auto;
 }
 .App-logo {
   height: 250px;
-  float:left;
-  margin:30px 80px;
+  float: left;
+  margin: 30px 80px;
 }
 .App-title {
   font-size: 1.5em;
-  margin:0px 80px;
-  padding:60px 40px 20px;
+  margin: 0px 80px;
+  padding: 60px 40px 20px;
   font-style: italic;
 }
 .App-intro {
   font-size: large;
-  margin-top:10px;
+  margin-top: 10px;
   padding-right: 80px;
+  padding-left: 80px;
 }
 .App-button {
   background: linear-gradient(rgb(0, 174, 255), rgb(0, 130, 216));
   border: 0px solid transparent;
   padding: 10px 30px;
+  margin: 10px 30px;
   color: #fff;
-  font-weight: bold;  
-  font-size: .8em;
+  font-weight: bold;
+  font-size: 0.8em;
 }
 .main-section {
-  width:90%;
+  width: 90%;
   padding: 0px;
   background: rgb(230, 230, 230);
-  margin:0 auto;
+  margin: 0 auto;
 }
 .App-action-call {
   background: linear-gradient(rgb(0, 174, 255), rgb(0, 130, 216));
-  padding:10px 30px;
+  padding: 10px 30px;
   width: 80%;
-  height:40px;
-  display:grid;
+  height: 40px;
+  display: grid;
   grid-template-columns: 70% 30%;
-  margin:0 auto;
-  color:#fff;
+  margin: 0 auto;
+  color: #fff;
 }
 .App-call-text {
-  margin:10px 30px;
+  margin: 10px 30px;
 }
 .App-button-white {
   background: linear-gradient(rgb(255, 255, 255), rgb(197, 197, 197));
   border: 0px solid transparent;
   padding: 10px 30px;
   color: #909090;
-  font-weight: bold;  
-  font-size: .8em;
+  font-weight: bold;
+  font-size: 0.8em;
 }
 .App-description {
-  width:80%;
-  margin:0px auto;
-  display:grid;
-  grid-template-columns:repeat(4, 1fr);
+  width: 80%;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
-  position:relative;
+  position: relative;
 }
 
-.outer-triangle{
+.outer-triangle {
   border-right: 22px solid transparent;
   border-left: 22px solid rgb(0, 130, 216);
   border-bottom: 22px solid transparent;
   height: 0;
   width: 0;
   position: absolute;
-  margin-top:60px;
+  margin-top: 60px;
   z-index: 1;
 }
-.outer-triangle-white{
+.outer-triangle-white {
   border-right: 22px solid transparent;
   border-left: 22px solid #fff;
   border-bottom: 22px solid transparent;
   height: 0;
   width: 0;
   position: absolute;
-  margin-top:20px;
-  margin-left:-20px;
+  margin-top: 20px;
+  margin-left: -20px;
   z-index: 1;
 }
-.recent-work-triangle-white{
+.recent-work-triangle-white {
   border-right: 22px solid transparent;
   border-left: 22px solid #fff;
   border-bottom: 22px solid transparent;
   height: 0;
   width: 0;
   position: absolute;
-  margin-top:0px;
-  margin-left:0px;
+  margin-top: 0px;
+  margin-left: 0px;
   z-index: 1;
 }
 .App-description-card {
   margin-top: 40px;
   text-align: center;
-  padding:20px 20px 40px;
-  margin-bottom:40px;
+  padding: 20px 20px 40px;
+  margin-bottom: 40px;
 }
 .App-description-card:hover {
   margin-top: 40px;
@@ -124,10 +126,10 @@ body {
   box-shadow: 20px 0px 47px -20px #0000008f;
 }
 .App-description-card h2 {
-  font-size: .9em;
+  font-size: 0.9em;
 }
 .App-description-card p {
-  font-size: .7em;
+  font-size: 0.7em;
 }
 .icon {
   display: inline-block;
@@ -144,27 +146,27 @@ body {
   line-height: 2em;
 }
 .App-description-card-button {
-  background: linear-gradient(rgb(0, 174, 255), rgb(0, 130, 216));  
+  background: linear-gradient(rgb(0, 174, 255), rgb(0, 130, 216));
   color: #fff;
-  border:none;
+  border: none;
   border-radius: 3px;
-  padding:3px 6px;
+  padding: 3px 6px;
 }
 .App-recent-work {
-  width:80%;
-  margin:10px auto 80px;
-  display:grid;
+  width: 80%;
+  margin: 10px auto 80px;
+  display: grid;
   grid-gap: 40px;
-  grid-template-rows:auto;
+  grid-template-rows: auto;
   grid-template-areas:
-  "header header header"
-  "main main main";
+    "header header header"
+    "main main main";
 }
 .App-recent-work-content {
   grid-area: main;
-  display:grid;
+  display: grid;
   grid-gap: 30px;
-  grid-template-columns:repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 .App-recent-work-card {
   background: rgb(255, 255, 255);
@@ -172,50 +174,50 @@ body {
   box-shadow: 20px 0px 47px -20px #0000008f;
 }
 .App-recent-work-card h2 {
-  font-size: .9em;
+  font-size: 0.9em;
 }
 .App-recent-work-card p {
-  font-size: .7em;
+  font-size: 0.7em;
 }
-.App-recent-work-card img{
+.App-recent-work-card img {
   width: 100%;
 }
-.App-recent-work-card h2{
+.App-recent-work-card h2 {
   padding: 0px 20px;
 }
-.App-recent-work-card p{
+.App-recent-work-card p {
   padding: 0px 20px;
 }
 .bottom-section {
   width: 80%;
-  display:grid;
+  display: grid;
   grid-gap: 40px;
-  margin:60px auto;
+  margin: 60px auto;
   grid-template-areas:
-  "left left right"
-  "left left right"
+    "left left right"
+    "left left right";
 }
 .App-testimonials {
   grid-area: left;
 }
 .testimonials {
-  display:grid;
-  grid-template-columns:repeat(2, 1fr);
-  grid-template-rows:auto;
-  grid-gap:40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 40px;
 }
 .App-testimonials-card {
   background: #fff;
   text-align: left;
-  margin:0px 0px;
-  padding:20px;
+  margin: 0px 0px;
+  padding: 20px;
   box-shadow: 20px 0px 47px -20px #0000008f;
 }
 .App-testimonials-card h2 {
-  font-size: .9em;
+  font-size: 0.9em;
 }
 .App-testimonials-card p {
-  font-size: .7em;
+  font-size: 0.7em;
 }
 .App-development {
   grid-area: right;
@@ -226,95 +228,101 @@ body {
 .App-development-card {
   background: #fff;
   text-align: left;
-  margin-top:0px;
-  padding:20px;
+  margin-top: 0px;
+  padding: 20px;
   box-shadow: 20px 0px 47px -20px #0000008f;
 }
 .App-development-card h2 {
-  font-size: .9em;
+  font-size: 0.9em;
 }
 .App-development-card p {
-  font-size: .7em;
+  font-size: 0.7em;
 }
 .App-footer {
-  width:90%;
-  margin:0px auto;
+  width: 90%;
+  margin: 0px auto;
   background-color: rgb(48, 48, 48);
 }
 .App-footer-content {
   background-color: rgb(48, 48, 48);
   padding: 0px;
   color: white;
-  margin:0px;
-  display:grid;
-  grid-template-columns:repeat(4, 1fr);
+  margin: 0px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
-  width:80%;
-  margin:0px auto;
+  width: 80%;
+  margin: 0px auto;
 }
 .App-footer-card {
   text-align: left;
-  margin:20px;
-  padding:20px;
+  margin: 20px;
+  padding: 20px;
 }
 .App-footer-card h2 {
-  font-size: .9em;
+  font-size: 0.9em;
 }
 .App-footer-card p {
-  font-size: .7em;
+  font-size: 0.7em;
 }
 .App-line-separator {
-  height:10px;
-  display:block;
-  background-image: repeating-linear-gradient(45deg,rgb(164, 164, 164), rgb(164, 164, 164) 1px,#fff 1px,#fff 2px);
+  height: 10px;
+  display: block;
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgb(164, 164, 164),
+    rgb(164, 164, 164) 1px,
+    #fff 1px,
+    #fff 2px
+  );
   background-repeat: repeat-x;
   text-align: center;
-  padding-top:0px;
-  margin-bottom:40px;
+  padding-top: 0px;
+  margin-bottom: 40px;
 }
 .App-line-separator h2 {
-  margin: -10px auto 0px ;
-  display:inline-block;
+  margin: -10px auto 0px;
+  display: inline-block;
   background: rgb(230, 230, 230);
   padding: 10px 25px;
-  font-size: .8em;
-  color:#909090;
+  font-size: 0.8em;
+  color: #909090;
 }
 .footer-slug {
   background: #000;
   color: #fff;
-  font-size: .7em;
-  width:90%;
-  margin:0px auto;
+  font-size: 0.7em;
+  width: 90%;
+  margin: 0px auto;
 }
-.footer-slug p{
+.footer-slug p {
   padding: 20px;
   color: #fff;
-  font-size: .7em;
-  margin:0px;
+  font-size: 0.7em;
+  margin: 0px;
 }
 .dev-button {
-  width:100px;
+  width: 100px;
   display: inline-block;
-  background:#fff;
-  font-size: .7em;
+  background: #fff;
+  font-size: 0.7em;
   border-right: 1px solid #ccc;
   text-align: center;
   padding: 4px 12px;
 }
 .dev-button-dark {
-  width:100px;
+  width: 100px;
   display: inline-block;
-  background:rgb(196, 196, 196);
-  font-size: .7em;
+  background: rgb(196, 196, 196);
+  font-size: 0.7em;
   border-right: 1px solid #ccc;
   text-align: center;
   padding: 4px 12px;
 }
 .square {
   display: inline-block;
-  width:40px;
-  height:40px;
+  width: 40px;
+  height: 40px;
   background: #909090;
   margin: 4px;
 }
