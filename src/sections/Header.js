@@ -1,6 +1,6 @@
 import React from 'react'
 import '../App.css'
-import hero_image from '../assets/header_img.png'
+import hero_image from 'header_img.png'
 import CallToAction from '../components/CallToAction'
 
 const Header = ({ content: { title, slogan, button }, cta }) => {

@@ -1,6 +1,6 @@
 import React from "react"
 import "../App.css"
-import img_placeholder from '../assets/img_placeholder.png'
+import img_placeholder from 'img_placeholder.png'
 
 const RecentWorkCard = ({ title, text }) => {
 
