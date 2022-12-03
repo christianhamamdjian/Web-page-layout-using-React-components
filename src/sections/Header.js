@@ -1,8 +1,9 @@
 import React from 'react'
 import '../App.css'
+import hero_image from '../assets/header_img.png'
 import CallToAction from '../components/CallToAction'
 
-const Header = ({ content: { hero_image, title, slogan, button }, cta }) => {
+const Header = ({ content: { title, slogan, button }, cta }) => {
   const { title: ctaTitle, button: ctaButton } = cta[0]
   return (
     <section className="header">

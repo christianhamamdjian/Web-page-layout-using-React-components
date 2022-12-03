@@ -5,6 +5,7 @@ import RecentWork from './RecentWork'
 import Testimonials from './Testimonials'
 import Development from './Development'
 import CallToAction from '../components/CallToAction'
+import border_bg from '../assets/border_bg.jpg'
 
 const Main = ({ feature_names, recent_work, testimonials, development, cta }) => {
   const { title: ctaTitle, button: ctaButton } = cta[0]
@@ -14,7 +15,7 @@ const Main = ({ feature_names, recent_work, testimonials, development, cta }) =>
       <section className="main-section">
         <div className="main-section-container">
           <div
-            style={{ backgroundImage: `url('../assets/border_bg.jpg')` }}
+            style={{ backgroundImage: `url(${border_bg})` }}
             className="line-separator" ></div>
           <Description
             content={feature_names} />

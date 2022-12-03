@@ -1,11 +1,12 @@
 import React from "react"
 import "../App.css"
+import img_placeholder from '../assets/img_placeholder.png'
 
-const RecentWorkCard = ({ image, title, text }) => {
+const RecentWorkCard = ({ title, text }) => {
 
   return (
     <div className="recent-work-card">
-      <img alt="" src={image} />
+      <img alt="" src={img_placeholder} />
       <h2>{title}</h2>
       <p>{text}</p>
       {/* <div className="recent-work-triangle-white" /> */}
