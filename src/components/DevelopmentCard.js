@@ -8,7 +8,10 @@ const DevelopmentCard = ({ title, text, button }) => {
       <div className="development-card">
         <h2>{title}</h2>
         <p>{text}</p>
-        <button className="development-card-button">{button}</button>
+        <button className="feature-card-button">
+          {button}
+        </button>
+        {/* <button className="development-card-button">{button}</button> */}
       </div>
     </div>
   )

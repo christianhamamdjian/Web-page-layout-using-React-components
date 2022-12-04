@@ -34,7 +34,7 @@ body {
 }
 
 .header-right {
-  padding: 20px 20px;
+  padding: 20px 10px;
 }
 
 .logo {
@@ -58,6 +58,10 @@ body {
   color: rgb(231, 230, 230);
 }
 
+button {
+  cursor: pointer;
+}
+
 .button {
   background: linear-gradient(rgb(0, 174, 255), rgb(0, 130, 216));
   border: 0px solid transparent;
@@ -72,7 +76,7 @@ body {
 }
 
 .main-section-container {
-  padding: 0px 132px;
+  padding: 0px 115px;
 }
 
 .action-call {
@@ -102,7 +106,7 @@ body {
   min-width: 500px;
   display: flex;
   gap: 10px;
-  padding: 0 3rem;
+  padding: 2rem 0;
 }
 
 .outer-triangle {
@@ -142,19 +146,12 @@ body {
 }
 
 .feature-card {
-  margin-top: 40px;
   text-align: center;
-  padding: 20px 20px 40px;
-  margin-bottom: 40px;
+  padding: 1rem 1.5rem;
 }
 
 .feature-card:hover {
-  margin-top: 40px;
-  text-align: center;
   background: #fff;
-  -webkit-clip-path: polygon(100% 0, 100% 93%, 8% 93%, 0 99%, 0 0);
-  clip-path: polygon(100% 0, 100% 93%, 8% 93%, 0 99%, 0 0);
-  box-shadow: 20px 0px 47px -20px #0000008f;
 }
 
 .feature-card h2 {
@@ -185,15 +182,15 @@ body {
   color: #fff;
   border: none;
   border-radius: 3px;
-  padding: 3px 6px;
+  padding: 1rem 1.5rem;
 }
 
 .recent-work {
-  margin: 0px auto;
+  margin: 0px;
 }
 
 .recent-work-content {
-  padding: 3rem;
+  padding: 3rem 0;
   grid-area: main;
   display: grid;
   grid-gap: 30px;
@@ -204,6 +201,7 @@ body {
   background: rgb(255, 255, 255);
   text-align: left;
   box-shadow: 20px 0px 47px -20px #0000008f;
+  padding-bottom: 1rem;
 }
 
 .recent-work-card h2 {
@@ -240,7 +238,7 @@ body {
 }
 
 .testimonials-content {
-  padding: 2rem;
+  padding: 2rem 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 40px;
@@ -267,7 +265,7 @@ body {
 }
 
 .development-content {
-  padding: 20px;
+  padding: 2rem 0;
 }
 
 .development-card {
@@ -341,9 +339,9 @@ body {
 .line-separator {
   height: 10px;
   display: block;
-  /* background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAMCAYAAAC5tzfZAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTZERjg3Q0Q1NzhBMTFFMkExQjNDNjY4Mzc5NzgxNzgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTZERjg3Q0U1NzhBMTFFMkExQjNDNjY4Mzc5NzgxNzgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0N0VDRjk2ODU3NjAxMUUyQTFCM0M2NjgzNzk3ODE3OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBNkRGODdDQzU3OEExMUUyQTFCM0M2NjgzNzk3ODE3OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PpzX0O0AAABvSURBVHjaYnz//v3Xm9ev/1fX1PzEwMDwH4hZGKAAKM4AFGdAByxACS6oBBdUjBGfBpA4I9Cm/1D+LyjNCpRgxKUBJM6ESwKfOBOpGlA0EasBrokUDWBNpGqgb+ixoEU0yAZGQgYhJxkmYv0GEGAA8DJdlSrGvGoAAAAASUVORK5CYII=); */
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAMCAYAAAC5tzfZAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTZERjg3Q0Q1NzhBMTFFMkExQjNDNjY4Mzc5NzgxNzgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTZERjg3Q0U1NzhBMTFFMkExQjNDNjY4Mzc5NzgxNzgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0N0VDRjk2ODU3NjAxMUUyQTFCM0M2NjgzNzk3ODE3OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBNkRGODdDQzU3OEExMUUyQTFCM0M2NjgzNzk3ODE3OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PpzX0O0AAABvSURBVHjaYnz//v3Xm9ev/1fX1PzEwMDwH4hZGKAAKM4AFGdAByxACS6oBBdUjBGfBpA4I9Cm/1D+LyjNCpRgxKUBJM6ESwKfOBOpGlA0EasBrokUDWBNpGqgb+ixoEU0yAZGQgYhJxkmYv0GEGAA8DJdlSrGvGoAAAAASUVORK5CYII=);
   background-repeat: repeat-x;
-  background-size: 50px;
+  /* background-size: 50px; */
   text-align: center;
   padding-top: 0px;
   margin-bottom: 0px;
